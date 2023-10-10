@@ -1,0 +1,336 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #1C1F22;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+
+}
+
+.welcome-header {
+    width: 100%;
+    margin-top: 70px;
+    padding: 0 0 0 20px;
+}
+
+.welcome-header .image-wrap {
+    width: 179px;
+    height: 34px;
+}
+
+.welcome-header .image-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.wc--row {
+    display: flex;
+}
+.wc--row .col-1 .content--wrapper .main-heading {
+    margin-top: 70px;
+}
+.wc--row .col-1 {
+    width: 50%;
+}
+
+.wc--row .col-2 {
+    width: 50%;
+    background-image: url('img/bg-gren.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 885px;
+}
+
+.wc--row .col-2 .right-content {
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 650px;
+    padding:0 20px;
+}
+
+.right-media-wrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 527px;
+    text-align: center;
+}
+
+.right-media-wrap img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.wc--row .col-2 .right-content .right-context {
+    width: 100%;
+    text-align: center;
+    transform: translateY(15%);
+    max-width: 420px;
+}
+
+.wc--row .col-2 .right-content .right-context h2 {
+    color: #1C1F22;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.wc--row .col-2 .right-content .right-context p {
+    color: #1C1F22;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.wc--row .col-1 .content--wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+
+
+.wc--row .col-1 .content--wrapper .main-heading h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.wc--row .col-1 .content--wrapper .form-wrapper {
+    max-width: 307px;
+    margin: 0px auto;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper input {
+    width: 100%;
+    display: block;
+    margin: 0 auto 15px auto;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background: transparent;
+    outline: 0;
+}
+.wc--row .col-1 .content--wrapper .form-wrapper .chekc-fields {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .chekc-fields input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .chekc-fields label {margin-left: 10px;color: #fff;}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .action-wrapper {
+    width: 100%;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .action-wrapper button {
+    width: 100%;
+
+    display: flex;
+    margin: 0 auto 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 0;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .action-wrapper button.login-btn-fb {
+    background: #255D9A;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .action-wrapper button.login-btn-fb img {
+    margin-right: 10px;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .action-wrapper button.login-btn-fb span {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper .action-wrapper button.login-btn {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.wc--row .col-1 .content--wrapper .form-wrapper input::placeholder {
+    text-transform: capitalize;
+}
+
+.action--alert span {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.action--alert a {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.action--alert {
+    max-width: 307px;
+    margin: auto;
+}
+@media screen and (min-width: 1200px) {
+    .wc--row .col-1 {
+        transform: translateY(15%);
+    }
+    .welcome-header {
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        margin-top: 0;
+        padding: 0;
+        width: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .right-media-wrap {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        transform: translateY(-79%);
+    }
+    .wc--row .col-2 .right-content .right-context {
+        transform: translateY(10%);
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .wc--row .col-2 .right-content .right-context {
+        transform: translateY(5%);
+    }
+    .wc--row .col-2 .right-content .right-context h2 {
+        font-size: 30px;
+    }
+    .right-media-wrap {
+        transform: translateY(-115%);
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .wc--row .col-2 .right-content .right-context p {
+        font-size: 16px;
+    }
+    .right-media-wrap{
+        display: none;
+    }
+    .wc--row .col-2 {
+        min-height: 100%;
+    }
+    .wc--row {
+        flex-direction: column-reverse;
+    }
+    .wc--row .col-2 {
+        width: 100%;
+        min-height: 100%;
+        background-size: 100%;
+    }
+    .wc--row .col-2 .right-content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .wc--row .col-2 {
+        width: 90%;
+        min-height: 200px;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        margin: auto;
+    }
+    .wc--row .col-1 {
+        width: 100%;
+    }
+    .wc--row .col-1 .content--wrapper .form-wrapper {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 40px;
+    }
+    .wc--row .col-1 .content--wrapper .main-heading {
+        margin-top: 45px;
+    }
+    .welcome--wrapper {
+        padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .wc--row .col-2 .right-content .right-context {
+        transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .wc--row .col-2 .right-content .right-context h2 {
+        font-size: 26px;
+    }
+}
