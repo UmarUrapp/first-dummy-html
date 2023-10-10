@@ -28,7 +28,7 @@ label {
 .welcome-header {
     width: 100%;
     margin-top: 70px;
-    padding: 0 0 0 20px;
+    //padding: 0 0 0 20px;
 }
 
 .welcome-header .image-wrap {
